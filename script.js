@@ -1,8 +1,7 @@
 const BASE_URL = "https://lapticon-backend.onrender.com";
 const FIREBASE_API_KEY = "AIzaSyAuh64b_I2OtC7KYuubCVx9plEe2pojp2M";
 
-// Qué se envía como ciudadOrigen/ciudadDestino: "_id" (id de Mongo) o "nombre".
-// Si la API rechaza la encomienda por ciudad inválida, cambia esto a "nombre".
+
 const CAMPO_CIUDAD = "_id";
 
 let idToken = null;
